@@ -27,4 +27,4 @@
         + Function :
             - 1 function ko nên có nhiều hơn 3 tham số 
             - Tránh sử dụng hardcode 
-        + Nếu có thể thì hãy tái sử dụng code
+        + Nếu có thể thì hãy tái sử dụng code.
