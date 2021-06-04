@@ -1,0 +1,30 @@
+1) vài coding convention của Kotlin:
+    + Tên kiểu và tên class bắt đầu với chứ cái in hoa 
+    + Trường hợp class có ít tham số thì nên viết trên 1 dòng
+    + Trường hợp class có nhiều hơn 1 thuộc tính thì nên viết lùi vào 4 dấu cách
+    + Có 1 dấu cách trước kiểu mà hàm return về
+    + Nếu có thể thì nên viết tài liệu cho hàm public bởi vì khi người khác nhìn vào sẽ dễ hiểu hơn
+    + Nếu class có nhiều thuộc tính thì mỗi thuộc tính sẽ nằm trên 1 dòng
+    + Sử dụng interface thì ưu tiên viết hàm constructer trước xong mới viết đến hàm interface
+    + Tên biến luôn bắt đầu bằng chữ thường, tránh sử dụng dấu gạch dưới để viết tên
+2) clean code
+    * What? - clean code là gi?
+        Clean code nếu dịch ra thì có nghĩa là “mã nguồn sạch”,nhưng hiểu một cách đơn giản thì clean code bao gồm: 
+            + Cách tổ chức mã nguồn.
+            + Cách triển khai mã nguồn sao cho khoa học.
+            + Dễ hiểu và đem lại hiệu năng cao cho chương trình.
+    * Why? - clean code có tác dụng gì?
+        + Giúp code dễ bảo trì hơn
+        + Giúp người khác đọc code của mình dễ hiểu hơn
+        + Giúp mọi người hình dung ra 1 quy tắc chung
+        + Thể hiện trình độ chuyên nghiệp 
+    * When? - Khi nào nên sử dụng clean code 
+        + Nếu có thể thì là bất cứ khi nào code, nhất là khi làm việc nhóm nhiều người
+    * Who? - Những nguời nên sử dụng clean code 
+        + Tất nhiên là các lập trình viên cả ko chuyên lẫn chuyên nghiệp 
+    * How? - Như thế nào là clean code 
+        + Đặt tên có ý nghĩa
+        + Function :
+            - 1 function ko nên có nhiều hơn 3 tham số 
+            - Tránh sử dụng hardcode 
+        + Nếu có thể thì hãy tái sử dụng code
