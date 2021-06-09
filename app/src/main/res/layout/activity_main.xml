@@ -13,12 +13,8 @@
         android:hint="Nhập tên của bạn"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/nextview"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
-
-
-
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/nextview"
@@ -26,8 +22,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="tiep tuc"
-        android:textStyle="bold"
         android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -35,3 +31,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
